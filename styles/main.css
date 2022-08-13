@@ -398,7 +398,7 @@ html {
 .tours {
   background-color: #011820;
   position: relative;
-  padding-bottom: 5rem;
+  padding-bottom: 8.5rem;
 }
 
 .tours::after, .tours::before {
@@ -470,12 +470,15 @@ html {
   position: relative;
   height: 21rem;
   overflow: hidden;
+  box-shadow: 0 0 1rem transparent;
   transform: scale(1);
-  transition: transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out, box-shadow 0.25s ease-in-out, z-index 0.25s linear, z-index 0;
 }
 .tours__card:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 0.25rem black;
+  box-shadow: 0 0 1rem black;
+  transition: transform 0.25s ease-in-out, box-shadow 0.25s ease-in-out, z-index 0s linear;
+  z-index: 1000;
 }
 
 .tours__card-icon-background {
@@ -517,6 +520,7 @@ html {
   width: 3rem;
   color: white;
   display: block;
+  filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.5));
 }
 
 .tours__card-content {
