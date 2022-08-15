@@ -251,7 +251,8 @@ html {
 }
 
 .button {
-  border: 0.125rem solid #00e29c;
+  display: inline-block;
+  border: 0.125rem solid currentColor;
   border-radius: 10000rem;
   color: #00e29c;
   text-decoration: none;
@@ -259,6 +260,23 @@ html {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.2rem;
+}
+.button:hover {
+  color: #1cffb9;
+}
+
+.button-background-blur {
+  -webkit-backdrop-filter: blur(3rem);
+  backdrop-filter: blur(3rem);
+}
+
+.button--white {
+  color: white;
+  text-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.5);
+}
+.button--white:hover {
+  color: #e6e6e6;
 }
 
 .motivation {
@@ -625,6 +643,7 @@ html {
   padding-top: 4rem;
   padding-bottom: 4rem;
   font-size: 2rem;
+  text-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.5);
 }
 
 .story__desc {
@@ -634,11 +653,13 @@ html {
   column-count: 2;
   column-gap: 4rem;
   column-rule: 0.125rem solid rgba(255, 255, 255, 0.5);
+  text-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.5);
+  text-align: justify;
 }
 
 .story__book {
   text-align: center;
-  padding: 2rem 0;
+  padding: 3rem 0 5rem 0;
 }
 
 /*# sourceMappingURL=main.css.map */
