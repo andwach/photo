@@ -267,7 +267,7 @@ html {
 }
 
 .button {
-  border: 0.125rem solid rgb(0, 226, 156);
+  border: 0.125rem solid currentColor;
   border-radius: 10000rem;
   color: rgb(0, 226, 156);
   text-decoration: none;
@@ -275,6 +275,16 @@ html {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.2rem;
+}
+.button:hover {
+  color: #1cffb9;
+}
+
+.button--white {
+  color: white;
+}
+.button--white:hover {
+  color: rgb(230, 230, 230);
 }
 
 .motivation {
