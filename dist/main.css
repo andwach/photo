@@ -714,8 +714,15 @@ html {
   border-right: 0.0625rem solid #5fcaa9;
 }
 
+.offers__image-container {
+  background-color: #00e29c;
+  margin: -0.125rem -0.0625rem;
+}
+
 .offers__image {
   width: 100%;
+  filter: grayscale(100%);
+  mix-blend-mode: multiply;
 }
 
 /*# sourceMappingURL=main.css.map */

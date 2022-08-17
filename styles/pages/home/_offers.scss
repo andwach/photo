@@ -46,9 +46,12 @@ $-offers-card-margin: 0.66rem;
 }
 
 .offers__image-container {
+    background-color: $color-primary;
     margin: -$-offers-card-border-width -$-offers-card-border-width 0 -$-offers-card-border-width;
 }
 
 .offers__image {
     width: 100%;
+    filter: grayscale(100%);
+    mix-blend-mode: multiply;
 }
