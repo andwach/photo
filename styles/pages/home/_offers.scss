@@ -45,6 +45,10 @@ $-offers-card-margin: 0.66rem;
     border-right: $-offers-card-border-width solid color.scale($color-primary, $saturation: -50%, $lightness: 25%);
 }
 
+.offers__image-container {
+    margin: -$-offers-card-border-width -$-offers-card-border-width 0 -$-offers-card-border-width;
+}
+
 .offers__image {
     width: 100%;
 }
