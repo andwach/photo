@@ -312,13 +312,12 @@
             </div>
         </section>
         <section class="story">
-            <video class="story__video" autoplay // > muted loop>
-             <!-- Quelle: https://www.pexels.com/video/a-woman-paddling-a-boat-in-lake-louise-4476816/ -->
-             <source type="video/webm" src="videos/pexels_4476816.webm" />
-             <source type="video/mp4" src="videos/pexels_4476816.mp4" />
-             <source type="video/ogg" src="videos/pexels_4476816.ogv" />
+            <video class="story__video" muted loop>
+                <!-- Quelle: https://www.pexels.com/video/a-woman-paddling-a-boat-in-lake-louise-4476816/ -->
+                <source type="video/webm" src="videos/pexels_4476816.webm" />
+                <source type="video/mp4" src="videos/pexels_4476816.mp4" />
+                <source type="video/ogg" src="videos/pexels_4476816.ogv" />
             </video>
-
             <div class="story__video-colorize"></div>
 
             <div class="story__container">
@@ -329,24 +328,33 @@
                     <p>Etiam pulvinar arcu non tempus suscipit. Cras mauris tellus, molestie non dapibus sit amet, sodales a nulla. Nulla ullamcorper dolor vel magna aliquet venenatis. Nullam at mi elit. Phasellus sit amet urna quis mi maximus volutpat sit amet ut leo. </p>
                 </div>
                 <div class="story__book">
-                    <a class="button button--white button-background-blur" href="#">Book now</a>
+                    <a class="button button--white button--background-blur" href="#">Book now</a>
+                </div>
+            </div>
+        </section>
+        <section class="offers">
+            <div class="container">
+                <div class="offers__container">
+                    <div class="offers__card">
+                        <div class="offers__image-container">
+                            <img class="offers__image" src="images/offers/pexels-min-an-898766.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="offers__card"></div>
+                    <div class="offers__card"></div>
                 </div>
             </div>
         </section>
 
-        <section class="offers">
-            <div class="offers__container">
-                <div class="offers__card">
-                    TEST
-                </div>
-                <div class="offers__card">
-                    
-                </div>
-                <div class="offers__card">
-              
-                </div>
-            </div>
-        </section>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -357,9 +365,7 @@
 
         <!-- Bux fix for Chrome: https://stackoverflow.com/questions/14389566/stop-css-transition-from-firing-on-page-load -->
         <script> </script>
-        
-            <script src="scripts/main.js" async></script>
 
-
+        <script src="scripts/main.js" async></script>
     </body>
 </html>
