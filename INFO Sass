@@ -1,8 +1,0 @@
-
-
-
-Auf korrekten Pfad achten - IM VsCode Terminal:
-
-sass Photography/styles/main.scss Photography/dist/main.css --watch (--watch um dauerhaft zu speichern)
-
-
